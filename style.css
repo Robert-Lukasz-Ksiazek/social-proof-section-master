@@ -36,6 +36,10 @@ main {
   grid-template-areas:
     "header ratings"
     "statements statements";
+  background-image: url(./images/bg-pattern-top-desktop.svg),
+    url(./images/bg-pattern-bottom-desktop.svg);
+  background-repeat: no-repeat, no-repeat;
+  background-position: left top, right bottom;
 }
 
 header {
@@ -125,4 +129,5 @@ header > p {
   line-height: 1.5rem;
 }
 footer {
+  margin-top: 1rem;
 }
