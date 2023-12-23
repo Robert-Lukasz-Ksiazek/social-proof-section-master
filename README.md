@@ -31,7 +31,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: https://github.com/Robert-Lukasz-Ksiazek/social-proof-section-master
-- Live Site URL: https://robert-lukasz-ksiazek.github.io/social-proof-section-master
+- Live Site URL: https://robert-lukasz-ksiazek.github.io/social-proof-section
 
 ## My process
 
