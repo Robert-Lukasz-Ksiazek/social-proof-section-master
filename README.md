@@ -58,9 +58,9 @@ https://developer.mozilla.org/en-US/
 
 ## Author
 
-- Website - [Robert Ksiazek](https://www.your-site.com)
-- Frontend Mentor - [@Robert-Lukasz-Ksiazek]https://www.frontendmentor.io/profile/Robert-Lukasz-Ksiazek
-- Twitter - [@_robertksiazek_]https://www.twitter.com/_robertksiazek_/
+- Website - Robert Ksiazek https://www.your-site.com
+- Frontend Mentor - @Robert-Lukasz-Ksiazek https://www.frontendmentor.io/profile/Robert-Lukasz-Ksiazek
+- Twitter - @_robertksiazek_ https://www.twitter.com/_robertksiazek_/
 
 ## Acknowledgments
 
