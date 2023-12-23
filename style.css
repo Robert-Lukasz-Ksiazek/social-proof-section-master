@@ -54,6 +54,7 @@ header > p {
   font-size: 1rem;
   padding: 1.5rem 9rem 0 0;
   line-height: 1.5rem;
+  color: var(--Dark-Grayish-Magenta);
 }
 
 .ratings-container {
@@ -97,7 +98,7 @@ header > p {
   height: 14.625rem;
   padding: 2.5rem 2rem;
   background-color: var(--Very-Dark-Magenta);
-  color: var(--White);
+  color: var(--Light-Grayish-Magenta);
   border-radius: 0.5rem;
   display: flex;
   flex-direction: column;
@@ -127,7 +128,78 @@ header > p {
 
 .quote {
   line-height: 1.5rem;
+  color: var(--Light-Grayish-Magenta);
 }
 footer {
   margin-top: 1rem;
+}
+
+/*--------------------Media-Query---------------------------------------*/
+
+@media (max-width: 375px) {
+  body {
+    width: 375px;
+  }
+  main {
+    padding: 1.5rem;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto auto auto;
+    grid-template-areas:
+      "header"
+      "ratings"
+      "statements";
+  }
+  header {
+    margin-top: 4rem;
+  }
+  header > h1 {
+    padding-right: 0;
+    text-align: center;
+  }
+  header > p {
+    font-size: 1.1rem;
+    padding: 1.5rem 0 0 0;
+    line-height: 1.5rem;
+    text-align: center;
+  }
+  .ratings-container {
+    display: flex;
+    margin: 2rem 0 2rem 0;
+  }
+  .rating {
+    width: 100%;
+    align-items: center;
+    flex-direction: column;
+  }
+  .rating:nth-child(1) {
+    align-self: center;
+  }
+  .rating:nth-child(3) {
+    align-self: center;
+  }
+  .rating > p {
+    margin-top: 0.6rem;
+  }
+  .statements-container {
+    display: flex;
+    flex-direction: column;
+    row-gap: 1rem;
+    margin-top: 1rem;
+  }
+  .statement {
+    width: 100%;
+    height: auto;
+  }
+  .statement:nth-child(1) {
+    align-self: center;
+  }
+  .statement:nth-child(3) {
+    align-self: center;
+  }
+  .quote {
+    margin-top: 1.5rem;
+    font-size: 17px;
+  }
 }
