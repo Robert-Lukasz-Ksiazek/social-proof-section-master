@@ -18,6 +18,10 @@ html {
   background-color: white;
 }
 
+h2 {
+  font-size: 18px;
+}
+
 body {
   font-family: "League Spartan", sans-serif;
   height: 100dvh;
@@ -114,6 +118,7 @@ header > p {
   display: flex;
   align-items: center;
 }
+
 .photo {
   width: 2.5rem;
   border-radius: 50%;
